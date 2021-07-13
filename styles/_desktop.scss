@@ -1,0 +1,40 @@
+@media screen and (min-width: 800px) {
+  body {
+    padding: 10rem;
+  }
+  .container {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .mid-foot {
+    display: flex;
+  }
+  .middle,
+  .footer {
+    width: 50%;
+  }
+  .header {
+    padding: 3rem 20px;
+  }
+  .attribution {
+    margin-top: 30px;
+    margin: 30px auto;
+    font-size: 11px;
+    text-align: center;
+    border: 1px dashed hsl(218, 22%, 67%);
+    padding: 10px;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 1000;
+    color: rgb(62, 11, 109);
+    width: 30rem;
+  }
+  .attribution a {
+    color: hsl(199, 75%, 52%);
+  }
+  button {
+    max-width: 15rem;
+  }
+}

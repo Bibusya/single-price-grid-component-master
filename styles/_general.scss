@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $light-gray;
+  font-family: "Karla", sans-serif;
+}
+
+.header {
+  background-color: white;
+  padding: 20px;
+}
+
+.header h3 {
+  color: $cyan;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.header h4 {
+  color: $yellow;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: $grayish-blue;
+}
+
+.middle {
+  background-color: $cyan;
+  padding: 20px;
+}
+
+.middle h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.middle h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+span {
+  color: $light-gray;
+  font-weight: 100;
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.middle p {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.middle button {
+  border: none;
+  background-color: $yellow;
+  color: white;
+  font-weight: 700;
+  padding: 1rem 0;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.footer {
+  background-color: hsl(179, 58%, 48%);
+  padding: 20px;
+}
+
+.footer h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: white;
+}

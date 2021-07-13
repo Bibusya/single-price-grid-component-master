@@ -1,0 +1,27 @@
+@media screen and (max-width: 799px) {
+  body {
+    padding: 2rem;
+  }
+  .container {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    min-width: 300px;
+  }
+  .attribution {
+    min-width: 300px;
+    margin-top: 30px;
+    font-size: 11px;
+    text-align: center;
+    border: 1px dashed hsl(218, 22%, 67%);
+    padding: 10px;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 1000;
+    color: rgb(62, 11, 109);
+  }
+  .attribution a {
+    color: hsl(199, 75%, 52%);
+  }
+  button {
+    max-width: 22rem;
+  }
+}
